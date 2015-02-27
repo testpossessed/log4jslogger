@@ -1,0 +1,30 @@
+{
+  "name": "log4jslogger",
+  "version": "1.0.1",
+  "description": "A simple wrapper for log4js logger that configures itself from a file",
+  "main": "index.js",
+  "repository": "git://github.com/testpossessed/log4jslogger.git",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "keywords": [
+    "logging",
+    "log4js"
+  ],
+  "author": {
+    "name": "Mike Hanson",
+    "email": "mike@testpossessed.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "log4js": "^0.6.22"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-jasmine-node": "^0.2.1",
+    "jasmine-node": "^1.14.5",
+    "jssubstitute": "^1.0.5",
+    "matchdep": "^0.3.0",
+    "mockery": "^1.4.0"
+  }
+}
