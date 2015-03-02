@@ -37,6 +37,7 @@ Look [here](https://github.com/nomiddlename/log4js-node "log4js on GitHub") for 
 ## Usage
 Using log4jslogger is pretty simple
 
+```javascript
 var logger = require('log4jslogger');
 logger.trace('Message');
 logger.debug('Message');
@@ -44,6 +45,7 @@ logger.info('Message');
 logger.warn('Message');
 logger.error('Message');
 logger.fatal('Message');
+```
 
 That's it couldn't be simpler and less repetition
 
